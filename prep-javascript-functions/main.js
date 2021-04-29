@@ -17,3 +17,17 @@ function convertHoursToMinutes(hours) {
 }
 var minutes = convertHoursToMinutes(2);
 console.log('minutes', minutes);
+
+function getGreeting(name) {
+  return 'Hello ' + name;
+}
+
+var greeting = getGreeting('Godfrey');
+console.log('greeting: ', greeting);
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
+var addMultiply = addAndMultiplyBy5(10, 5);
+console.log('addMultiply: ', addMultiply)
