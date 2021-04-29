@@ -59,3 +59,10 @@ function getFullName(firstName, lastName) {
 
 var displayFullname = getFullName('Godfrey', 'Owidi');
 console.log('fullName: ', displayFullname);
+
+function cube(number) {
+  return number ** 3;
+}
+
+var findCube = cube(5);
+console.log('findcube: ', findCube);
