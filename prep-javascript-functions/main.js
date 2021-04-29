@@ -45,3 +45,10 @@ function subtractTwoNumbers(num1, num2) {
 
 var subtract = subtractTwoNumbers(22, 7);
 console.log('subtract: ', subtract);
+
+function getCircleCircumference(radius) {
+  return 2 * 3.141 * radius;
+}
+
+var circumference = getCircleCircumference(5);
+console.log('circumference: ', circumference);
