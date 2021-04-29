@@ -38,3 +38,10 @@ function multiplyAndDivideBy5(num1, num2) {
 
 var multiplyDivide = multiplyAndDivideBy5(35, 10);
 console.log('multiplyDivide: ', multiplyDivide);
+
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+
+var subtract = subtractTwoNumbers(22, 7);
+console.log('subtract: ', subtract);
