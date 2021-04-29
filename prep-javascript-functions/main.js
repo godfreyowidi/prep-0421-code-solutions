@@ -31,3 +31,10 @@ function addAndMultiplyBy5(num1, num2) {
 
 var addMultiply = addAndMultiplyBy5(10, 5);
 console.log('addMultiply: ', addMultiply)
+
+function multiplyAndDivideBy5(num1, num2) {
+  return (num1 * num2) / 5;
+}
+
+var multiplyDivide = multiplyAndDivideBy5(35, 10);
+console.log('multiplyDivide: ', multiplyDivide);
