@@ -52,3 +52,10 @@ function getCircleCircumference(radius) {
 
 var circumference = getCircleCircumference(5);
 console.log('circumference: ', circumference);
+
+function getFullName(firstName, lastName) {
+  return firstName  + ' ' + lastName;
+}
+
+var displayFullname = getFullName('Godfrey', 'Owidi');
+console.log('fullName: ', displayFullname);
