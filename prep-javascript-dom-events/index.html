@@ -14,24 +14,21 @@
 document.addEventListener('DOMContentLoaded', load);
 
 function load() {
-  return ('load');
+  console.log('content loaded!');
 }
-console.log('content loaded!');
 
 window.addEventListener('mousemove', mouse);
 
 function mouse() {
-  return ('mouse');
+  console.log('mouse is moving');
 }
-console.log('mouse is moving');
 
 var $helloworld = document.querySelector('button.hello-world-btn');
 $helloworld.addEventListener('click', whenClick);
 
 function whenClick() {
-  return ('hello world');
+  console.log('hello world');
 }
-console.log('hello world');
   </script>
 </body>
 
